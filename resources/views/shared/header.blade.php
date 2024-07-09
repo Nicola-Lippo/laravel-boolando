@@ -1,3 +1,3 @@
 <header class="bg-warning">
-    <div class="container">prova</div>
+    <div class="container">SONO L' HEADER CONDIVISO CON LE PAGINE</div>
 </header>
