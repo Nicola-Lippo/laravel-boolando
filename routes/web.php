@@ -14,9 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $data = [
+        'title' => 'Home Boolando, per vedere i prodotti scrivi /product in alto',
+    ];
+
+    return view('home', $data);
 });
 
-Route::get('/products', function () {
-    return view('products');
+Route::get('/product', function () {
+    $data = [
+        'title' => 'Prodotti Boolando',
+        'products' => config('products')
+    ];
+    return view('product', $data);
 });

@@ -3,7 +3,7 @@
 @section('main')
     <main>
         <div class="container">
-            prodotti tanti prodotti
+            <h1>{{ $title }}</h1>
         </div>
     </main>
 @endsection
