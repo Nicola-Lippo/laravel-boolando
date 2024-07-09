@@ -3,7 +3,7 @@
 @section('main')
     <main>
         <div class="container">
-            ciao sono stato passato come buco
+            prodotti tanti prodotti
         </div>
     </main>
 @endsection

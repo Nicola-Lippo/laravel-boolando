@@ -11,7 +11,8 @@
 
 <body>
     @include('shared.header')
-    ciao
+    <!--creo un buco da riempire con yeld-->
+    @yield('main')
     @include('shared.footer')
 </body>
 
